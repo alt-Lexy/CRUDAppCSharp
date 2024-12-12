@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CRUDAppp.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CRUDAppp.Controllers
 {
@@ -7,11 +8,6 @@ namespace CRUDAppp.Controllers
         public IActionResult Index()
         {
             return View("Index");
-        }
-
-        public string Connexion()
-        {
-            return "page de connexion";
         }
     }
 }
